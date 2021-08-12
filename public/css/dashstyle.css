@@ -1,0 +1,17 @@
+
+.container {
+    margin-top: 10px;
+    background: rgba(240, 255, 255, 0.55);
+    box-shadow: 0 8px 12px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(41, 5, 139, 0.397);
+}
+
+tr.hover:hover{
+    font-weight: 600;
+    transform: scale(1.01);
+    transition: .5s ease transform;
+    background: linear-gradient(to right, #afafaf71, #014d3f1a);
+}
